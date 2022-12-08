@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-18T13:08:41 IST" name="Suite" finished-at="2022-11-18T13:08:58 IST" duration-ms="17301">
+    <groups>
+    </groups>
+    <test started-at="2022-11-18T13:08:41 IST" name="Test" finished-at="2022-11-18T13:08:58 IST" duration-ms="17301">
+      <class name="Sample_Maven_ELF39.Dms_SearchTest">
+        <test-method is-config="true" signature="Browsersetup()[pri:0, instance:Sample_Maven_ELF39.Dms_SearchTest@cad498c]" started-at="2022-11-18T13:08:52 IST" name="Browsersetup" finished-at="2022-11-18T13:08:57 IST" duration-ms="5282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browsersetup -->
+        <test-method signature="TC01(java.lang.String)[pri:0, instance:Sample_Maven_ELF39.Dms_SearchTest@cad498c]" started-at="2022-11-18T13:08:57 IST" name="TC01" data-provider="search" finished-at="2022-11-18T13:08:58 IST" duration-ms="1344" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[computers]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01 -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:Sample_Maven_ELF39.Dms_SearchTest@cad498c]" started-at="2022-11-18T13:08:58 IST" name="Teardown" finished-at="2022-11-18T13:08:58 IST" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- Sample_Maven_ELF39.Dms_SearchTest -->
+      <class name="Sample_Maven_ELF39.Dms_registerTest">
+        <test-method is-config="true" signature="Browsersetup()[pri:0, instance:Sample_Maven_ELF39.Dms_registerTest@66498326]" started-at="2022-11-18T13:08:41 IST" name="Browsersetup" finished-at="2022-11-18T13:08:48 IST" duration-ms="6648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browsersetup -->
+        <test-method signature="register(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Sample_Maven_ELF39.Dms_registerTest@66498326]" started-at="2022-11-18T13:08:49 IST" name="register" data-provider="reg" finished-at="2022-11-18T13:08:51 IST" duration-ms="2316" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pramod ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Raj]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pramod001@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Raj#123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Raj#123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:Sample_Maven_ELF39.Dms_registerTest@66498326]" started-at="2022-11-18T13:08:51 IST" name="Teardown" finished-at="2022-11-18T13:08:52 IST" duration-ms="391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- Sample_Maven_ELF39.Dms_registerTest -->
+      <class name="Sample_Maven_ELF39.DemoTest">
+        <test-method signature="Demo()[pri:0, instance:Sample_Maven_ELF39.DemoTest@51dcb805]" started-at="2022-11-18T13:08:41 IST" name="Demo" finished-at="2022-11-18T13:08:41 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+      </class> <!-- Sample_Maven_ELF39.DemoTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
