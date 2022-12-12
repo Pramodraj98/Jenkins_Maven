@@ -2,24 +2,74 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-17T17:49:23 IST" name="Suite" finished-at="2022-11-17T17:49:39 IST" duration-ms="16080">
+  <suite started-at="2022-12-12T17:11:25 IST" name="Suite" finished-at="2022-12-12T17:11:53 IST" duration-ms="28103">
     <groups>
     </groups>
-    <test started-at="2022-11-17T17:49:23 IST" name="Test" finished-at="2022-11-17T17:49:39 IST" duration-ms="16080">
+    <test started-at="2022-12-12T17:11:25 IST" name="Test" finished-at="2022-12-12T17:11:53 IST" duration-ms="28103">
       <class name="Sample_Maven_ELF39.Dms_SearchTest">
-        <test-method signature="TC01()[pri:0, instance:Sample_Maven_ELF39.Dms_SearchTest@32910148]" started-at="2022-11-17T17:49:32 IST" name="TC01" finished-at="2022-11-17T17:49:39 IST" duration-ms="6767" status="PASS">
+        <test-method is-config="true" signature="Browsersetup()[pri:0, instance:Sample_Maven_ELF39.Dms_SearchTest@82de64a]" started-at="2022-12-12T17:11:44 IST" name="Browsersetup" finished-at="2022-12-12T17:11:52 IST" duration-ms="7958" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browsersetup -->
+        <test-method signature="TC01(java.lang.String)[pri:0, instance:Sample_Maven_ELF39.Dms_SearchTest@82de64a]" started-at="2022-12-12T17:11:52 IST" name="TC01" data-provider="search" finished-at="2022-12-12T17:11:53 IST" duration-ms="1086" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[computers]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC01 -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:Sample_Maven_ELF39.Dms_SearchTest@82de64a]" started-at="2022-12-12T17:11:53 IST" name="Teardown" finished-at="2022-12-12T17:11:53 IST" duration-ms="165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
       </class> <!-- Sample_Maven_ELF39.Dms_SearchTest -->
       <class name="Sample_Maven_ELF39.Dms_registerTest">
-        <test-method signature="register()[pri:0, instance:Sample_Maven_ELF39.Dms_registerTest@672872e1]" started-at="2022-11-17T17:49:23 IST" name="register" finished-at="2022-11-17T17:49:32 IST" duration-ms="9159" status="PASS">
+        <test-method is-config="true" signature="Browsersetup()[pri:0, instance:Sample_Maven_ELF39.Dms_registerTest@27462a88]" started-at="2022-12-12T17:11:25 IST" name="Browsersetup" finished-at="2022-12-12T17:11:37 IST" duration-ms="11896" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browsersetup -->
+        <test-method signature="register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Sample_Maven_ELF39.Dms_registerTest@27462a88]" started-at="2022-12-12T17:11:41 IST" name="register" data-provider="reg" finished-at="2022-12-12T17:11:44 IST" duration-ms="2710" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pramod ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Raj]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pramod001@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Raj#123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Raj#123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- register -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:Sample_Maven_ELF39.Dms_registerTest@27462a88]" started-at="2022-12-12T17:11:44 IST" name="Teardown" finished-at="2022-12-12T17:11:44 IST" duration-ms="360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
       </class> <!-- Sample_Maven_ELF39.Dms_registerTest -->
       <class name="Sample_Maven_ELF39.DemoTest">
-        <test-method signature="Demo()[pri:0, instance:Sample_Maven_ELF39.DemoTest@fa36558]" started-at="2022-11-17T17:49:23 IST" name="Demo" finished-at="2022-11-17T17:49:23 IST" duration-ms="15" status="PASS">
+        <test-method signature="Demo()[pri:0, instance:Sample_Maven_ELF39.DemoTest@614ca7df]" started-at="2022-12-12T17:11:25 IST" name="Demo" finished-at="2022-12-12T17:11:25 IST" duration-ms="13" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Demo -->
